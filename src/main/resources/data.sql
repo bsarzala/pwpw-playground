@@ -1,1 +1,6 @@
 insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/1', 'APPLICATION_B', 'foo@bar', '123321123345333', 'JAN', 'KOWALSKI');
+insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/2', 'APPLICATION_A', 'foo@bar1', '123321123345333', 'JANUSZ', 'KOWAL');
+insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/3', 'APPLICATION_C', 'foo@bar2', '123321123345333', 'JANINA', 'KOWALSKA');
+insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/4', 'APPLICATION_A', 'foo@bar3', '123321123345333', 'JANKO', 'KOWALEWICZ');
+insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/5', 'APPLICATION_B', 'foo@bar3', '123321123345333', 'JANKO', 'KOWALEWICZ');
+insert into APPLICATION values (APP_ID_SEQ.nextval, 'PL/2020-10-05/6', 'APPLICATION_C', 'foo@bar3', '123321123345333', 'JANKO', 'KOWALEWICZ');
