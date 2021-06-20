@@ -1,4 +1,4 @@
-package pl.pwpw.playground.application;
+package pl.pwpw.playground.application.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,14 +7,11 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 
-/**
- *
- */
 @Embeddable
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-class ContactDetails {
+public class ContactDetails {
 
     @Embedded
     private EmailAddress emailAddress;
